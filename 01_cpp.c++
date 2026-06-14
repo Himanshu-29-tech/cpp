@@ -40,7 +40,7 @@ int main(){
 }
 
 /*
-    so writing std:: again ang again make us very trouble 
+    so writing std:: again and again make us very trouble 
     why we cant use in this in header filr so let;s usde in header file 
 
 */
