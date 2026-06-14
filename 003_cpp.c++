@@ -26,7 +26,20 @@ int main() {
 
     printf("Value of card is : %d\n", my_card); //value of card is : 40
     // wow 😮 output is 40
+     
+    /* pointer
+    --->> need advanced declaration 
 
+
+ */
+    int *myp; // declaration of pointers 
+    // syntax --->>  (variable data type) *(variable name);
+    myp = &card ; // using & --->> to print address of the value(my_card)
+
+    my_card = *myp; // pointer deref
+
+    printf("Value of card is: %d\n", my_card); // for int variable we use %d
+    printf("Value of card is: %p\n",myp); // for pointer variable we use %p
 
     return 0;
 }
