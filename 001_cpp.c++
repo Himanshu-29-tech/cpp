@@ -22,3 +22,16 @@ printf("Dear customer welcome to our platform your confirmation id is %d", numbe
 // print the result 
 return 0;
 }
+//================== identifiers =======================
+
+/*
+so cpp is case sensitive 
+for identifiers there is some rules
+
+
+1>> uppercase and lowercase letters: timTimmy, timtimmy
+2>> never starts with number you can use number in between or end
+3>> we can use underscore::  tim_timmy
+4>> we can't start wth reserve keyword
+5>> underscore as start means private and it's also a keyword so avoid it in starting
+*/
