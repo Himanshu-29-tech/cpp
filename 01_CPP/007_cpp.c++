@@ -24,6 +24,16 @@ int main(){
   else {
       puts("Not 5 Sstar rated");
     }
-
+if(1) { // it's read 1 as a true and 0 as a false
+      puts("Go for it");
+    }
+  //================= Terniary operator =======================
+  /*syntax💁
+  condition ? true : false
+  */
+  printf("Your rating feedback is %s\n",rating > 4 ? "true block" : "false block");
+ 
+  return 0;
+}
   return 0;
 }
