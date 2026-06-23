@@ -29,19 +29,6 @@ int main(){
     if (typeid(rep) == typeid(int)) {
       puts("Type of both Id matches\n");
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   return 0;
 }
